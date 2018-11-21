@@ -32,8 +32,10 @@ varchar(24) firstname,
 varchar(24) lastname,
 varchar(32) school_email,
 varchar(32) school_name,
+/*
 int() age,
 int() highest_score = 0,
+*/
 varchar(16) parentid key not null,
 varchar(16) userid key not null
 varchar(7) studentid key not null,
@@ -74,6 +76,7 @@ varchar(24) lastname,
 varchar(32) email,
 varchar(16) userid not null
 );
+
 
 
 /*
